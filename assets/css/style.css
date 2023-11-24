@@ -88,9 +88,10 @@ main{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin:0rem 2rem;
+    margin:0rem 1.5rem;
 }
 #card{
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -125,9 +126,10 @@ main{
 aside{
     width: 90%;
     margin: 20px auto;
+    border-bottom: 1px solid lightgray;
 }
 aside h2{
-    padding: 30px 0px;
+    padding: 0.5rem;
     font-weight: 700;
     font-size: 0.7rem;
 }
@@ -136,11 +138,25 @@ aside ul{
     flex-wrap: wrap;
     list-style: none;
 }
-ul li a{
+aside ul li a{
     padding: 0.5rem;
     margin: 5px;
     font-size: x-small;
     border: 1px solid lightgray;
+    text-decoration: none;
+    color: gray;
+}
+article{
+    padding: 1.5rem;
+}
+article ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+article ul li a{
+    margin: 5px;
+    font-size: x-small;
     text-decoration: none;
     color: gray;
 }
