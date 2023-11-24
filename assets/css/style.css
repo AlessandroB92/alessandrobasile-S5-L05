@@ -86,6 +86,8 @@ main{
 }
 #container{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin:0rem 2rem;
 }
 #card{
@@ -122,10 +124,23 @@ main{
 }
 aside{
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 aside h2{
     padding: 30px 0px;
     font-weight: 700;
     font-size: 0.7rem;
+}
+aside ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+ul li a{
+    padding: 0.5rem;
+    margin: 5px;
+    font-size: x-small;
+    border: 1px solid lightgray;
+    text-decoration: none;
+    color: gray;
 }
